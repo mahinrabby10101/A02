@@ -16,9 +16,9 @@
             <img src="./assets/output-onlinepngtools.png" alt="">
           </div>
           <ul class="nav-links">
-            <li><a class="home-cart" href="#">Home</a></li>
-            <li><a class="shop-about" href="#">Shop</a></li>
-            <li><a class="shop-about" href="#">About</a></li>
+            <li class="hide-on-mobile"><a class="home-cart" href="#">Home</a></li>
+            <li class="hide-on-mobile"><a class="shop-about" href="#">Shop</a></li>
+            <li class="hide-on-mobile"><a class="shop-about" href="#">About</a></li>
             <li><a class="home-cart" href="#"><i class="fa-solid fa-cart-shopping"></i>Cart (৳666)</a></li>
           </ul>
 
@@ -113,7 +113,7 @@
                <img id="badge" src="./assets/trusted-badge.png" alt="">
               </div>
               <div class="textt-content">
-                <h2>Flower & Plants<br>Lover</h2>
+                <h2>Flower & Plants<br class="mobile-hide-br">Lover</h2>
                 <ul class="content-listt">
                   <li>Plant lovers find joy in every bloom. They cherish vibrant petals, nurture green life daily, and transform simple spaces into lush sanctuaries filled with beauty, peace, and fresh air.
 
@@ -157,7 +157,7 @@
               </div>
               <div class="grid-item right-side">
                 <div class="item-content2">
-                  <h2 id="zabo-plant">25% off | Zabo Plant</h2>
+                  <h2 id="zabo-plant" >25% off | Zabo Plant</h2>
                   <a id="zabo-plan" href="#" class="btn-link">Shop Now</a>
                 </div>
               </div>
@@ -173,8 +173,13 @@
             <div class="banner-content-two">
               <h2 class="headline">Join the colorful Bunch</h2>
               <div class="form-group">
-                <input type="email" placeholder="Write email" class="email-box">
-                <button class="subscribe-btn">Subscribe</button>
+                <div class="subscribe-box">
+                  <input type="email" placeholder="Write email" />
+                        <button>Subscribe</button>
+                      </div>
+                  
+              </div>
+          
               </div>
             </div>
           </section>
